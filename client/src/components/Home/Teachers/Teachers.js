@@ -39,7 +39,7 @@ const Teachers = () => {
         <div className="teacher_header">
           <h2>Our Teachers</h2>
           <h3>
-            Find online courses and a wide range of related learning content.
+            {/* Find online courses and a wide range of related learning content. */}
           </h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mx-4 cards">

@@ -7,6 +7,7 @@
 .teacher_header {
   text-align: center;
   margin: 20px;
+
 }
 .teacher_container {
   width: 80%;
@@ -55,9 +56,18 @@
 }
 
 .teacher_header h2 {
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   font-weight: 600;
-  color: #202c45;
+  background-color: #202c45;
+
+  width: 100%;
+  border: #202c45 2px solid;
+
+  color: #ffffff;
+  padding: 20px 0px 20px 0px;
+
 }
 
 .card-title {
@@ -87,4 +97,9 @@
 .card:hover {
   border-radius: 0px;
   border: #f2184f 2px solid;
+}
+
+.teacher_container{
+/* //border: #f2184f 2px solid; */
+background-color: #202c45;
 }
